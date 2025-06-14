@@ -222,7 +222,7 @@ function CreateBooking() {
         </Col>
       </Row>
       <div className='text-center py-2'>
-        For any further queries contact <a style={{ textDecoration: 'none' }} href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> or 7975977658
+        For any further queries contact <a style={{ textDecoration: 'none' }} href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> or 9963057053
       </div>
       <Modal show={showModal} onHide={setShowModal}>
         <Modal.Header closeButton>
