@@ -34,11 +34,11 @@ services:
     ports:
       - 3000:3000 
     depends_on:
-      - USER-API
+      - user-api
 
   admin-ui:
     build: ./Admin-Ui
     ports:
       - 3001:3000
     depends_on:
-      - ADMIN-API
+      - admin-api
